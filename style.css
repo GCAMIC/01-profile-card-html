@@ -1,0 +1,79 @@
+body {
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2rem;
+  text-align: center;
+  width: 320px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.name {
+  margin: 0.5rem 0 0.25rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  color: #888;
+  font-size: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.contact-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact-btn:hover {
+  background: #0056b3;
+}
+
+.favorites {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.favorites li {
+  margin-bottom: 0.5rem;
+}
+
+.favorites a {
+  color: #007bff;
+  text-decoration: none;
+  transition: text-decoration 0.2s;
+}
+
+.favorites a:hover {
+  text-decoration: underline;
+}
